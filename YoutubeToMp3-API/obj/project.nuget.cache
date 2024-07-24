@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q9F1fC1WuAhzcmVMYUvbmHD81O5mMS1aP9RisgGrsZWn/6Jif6jX1lFSwk+r3cgMeEOtlvJYaFjfyridfW0YNA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Niraj\\source\\repos\\YoutubeToMp3Niraj\\YoutubeToMp3Niraj.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Niraj\\.nuget\\packages\\anglesharp\\1.0.4\\anglesharp.1.0.4.nupkg.sha512",
+    "C:\\Users\\Niraj\\.nuget\\packages\\cliwrap\\3.6.4\\cliwrap.3.6.4.nupkg.sha512",
+    "C:\\Users\\Niraj\\.nuget\\packages\\ffmpeg.autogen\\6.0.0.2\\ffmpeg.autogen.6.0.0.2.nupkg.sha512",
+    "C:\\Users\\Niraj\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Niraj\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Niraj\\.nuget\\packages\\nreco.videoconverter\\1.2.1\\nreco.videoconverter.1.2.1.nupkg.sha512",
+    "C:\\Users\\Niraj\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Niraj\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Niraj\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Niraj\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\Niraj\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Niraj\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
+    "C:\\Users\\Niraj\\.nuget\\packages\\taglibsharp\\2.3.0\\taglibsharp.2.3.0.nupkg.sha512",
+    "C:\\Users\\Niraj\\.nuget\\packages\\youtubeexplode\\6.3.4\\youtubeexplode.6.3.4.nupkg.sha512",
+    "C:\\Users\\Niraj\\.nuget\\packages\\youtubeexplode.converter\\6.3.4\\youtubeexplode.converter.6.3.4.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>YoutubeToMp3Niraj</name>
+    </assembly>
+    <members>
+        <member name="T:YoutubeToMp3Niraj.Controllers.Youtube2AudioController">
+            <summary>
+            The youtube2 audio controller.
+            </summary>
+        </member>
+        <member name="M:YoutubeToMp3Niraj.Controllers.Youtube2AudioController.DownloadYoutubeMp3(System.String)">
+            <summary>
+            Downloads the youtube video then converts to mp3.
+            </summary>
+            <param name="videoUrl">Youtube video link</param>
+            <returns>This api stores mp3 audio of youtube video link.</returns>
+            <response code="201">Stores the mp3 audio</response>
+            <response code="400">If the video link is null</response>
+        </member>
+        <member name="M:YoutubeToMp3Niraj.Controllers.Youtube2AudioController.DownloadMp3File(System.String)">
+            <summary>
+            Returns a mp3 file from youtube video link.
+            </summary>
+            <param name="videoUrl">Youtube video link</param>
+            <returns>This api returns mp3 file of youtube video link.</returns>
+            <response code="201">Returns the mp3 audio file</response>
+            <response code="400">If the video is null</response>
+        </member>
+        <member name="T:YoutubeToMp3Niraj.Converter.ConvertToMp3">
+            <summary>
+            The convert to mp3.
+            </summary>
+        </member>
+        <member name="M:YoutubeToMp3Niraj.Converter.ConvertToMp3.ConvertVideoToMp3(System.String,System.String,System.String)">
+            <summary>
+            Converts the video to mp3.
+            </summary>
+            <param name="inputVideoPath">The input video path.</param>
+            <param name="outputAudioPath">The output audio path.</param>
+            <param name="thumbnailJPEGpath"></param>
+            <returns>A Task.</returns>
+        </member>
+        <member name="M:YoutubeToMp3Niraj.Converter.ConvertToMp3.DownloadToMp3File(System.String,System.String)">
+            <summary>
+            Downloads the to mp3.
+            </summary>
+            <param name="inputVideoPath">The input video path.</param>
+            <param name="outputAudioPath">The output audio path.</param>
+            <returns>A Task.</returns>
+        </member>
+    </members>
+</doc>
