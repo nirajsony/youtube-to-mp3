@@ -1,0 +1,35 @@
+
+
+<p style="
+color: #999995;
+font-style: italic;
+">Download mp3 file from youtube video <i class="pi pi-spin pi-spinner" style="font-size: 2rem"></i></p>
+
+<div class="d-flex justify-content-center"> 
+    <div class="spinner-border" role="status"> 
+        <span class="sr-only" id="loading" #spinner></span> 
+    </div> 
+</div> 
+
+<p-fieldset legend="Video to Mp3 File" [toggleable]="true">
+    <p style="color: #757679;">
+       Enter any video url/link from youtube in the below textbox and hit Submit button. After that wait for some time and your mp3 file will be downloaded automatically.
+    </p>
+    <br>
+    <div style="width: 60%;">
+    <span class="p-float-label" style=" margin-right: 15px;">
+        <input pInputText id="Video URL" [(ngModel)]="youtubeVideoUrl" [ngStyle]="styleDictionary" name="url" style="width: 100%;"  />
+        <label htmlFor="youtubeVideoUrl">Paste youtube video url here</label>
+    </span>
+
+    <p style="text-align: center;">
+    <p-button label="Submit" icon="pi pi-check" (click)="getAllWeather()" [disabled]="isDisabled"></p-button>
+</p>
+</div>
+</p-fieldset>
+
+<div style="width: 80%; display: flex;">
+
+
+</div>
+

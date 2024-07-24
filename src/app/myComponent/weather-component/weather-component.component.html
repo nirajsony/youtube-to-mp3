@@ -1,0 +1,32 @@
+
+
+<ul>
+    <li *ngFor="let wether of weatherDataList">
+        {{wether.date}}
+        {{wether.temperatureC}}
+        {{wether.temperatureF}}
+        {{wether.summary}}
+    </li>
+</ul>
+
+<p-table #dt [value]="weatherDataList" [tableStyle]="{ 'min-width': '50rem' }">
+    
+    <ng-template pTemplate="header">
+        <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Quantity</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-weatherDataList>
+        <tr>
+            <td>{{ weatherDataList.date }}</td>
+            <td>{{ weatherDataList.temperatureC }}</td>
+            <td>{{ weatherDataList.temperatureF }}</td>
+            <td>{{ weatherDataList.summary }}</td>
+        </tr>
+    </ng-template>
+</p-table>
+
+
